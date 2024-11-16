@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(211, 90, 90, 0.1);
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.store-title {
+    background-color: #ffe5e5;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0;
+}
+
+.store-title h1 {
+    color: #d96c6c;
+    font-size: 2em;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #d96c6c;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-bar button:hover {
+    background-color: #c45a5a;
+}
+
+.product-card {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #888;
+    margin: 5px 0;
+}
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos de las cajas */
+.caja {
+    width: 23%; /* Cada caja ocupa el 23% del ancho disponible */
+    height: 150px; /* Altura fija de las cajas */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.8; /* Un poco de transparencia para el efecto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el movimiento y la sombra */
+}
+
+.product-card.price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 0.9em;
+    color: #f06c6c;
+    text-decoration: none;
+    border: 1px solid #f06c6c;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.product-card a:hover {
+    background-color: #f06c6c;
+    color: #ffffff;
+}

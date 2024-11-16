@@ -1,0 +1,296 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #pink;
+    background-color: #pink;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://st2.depositphotos.com/3255607/42158/i/450/depositphotos_421581120-stock-photo-soft-light-pastel-pink-background.jpg');
+    background-size: cover;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d7e1; /* Fondo rosado claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor de las cajas */
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo de cada caja */
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+	height:30%;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animaciones para efecto hover */
+}
+
+.box h2 {
+    color: #f06292; /* Color rosado para los encabezados */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Efecto hover para las cajas */
+.box:hover {
+    transform: translateY(-10px); /* Eleva la caja cuando se pasa el ratón por encima */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer hover */
+}
+
+
+#contenedor {
+    width: 770px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#cabecera {
+    height: 100px;
+    background-image: url('https://i.pinimg.com/736x/18/c0/a0/18c0a09fdf68127b132edacc000dc8ca.jpg');
+    background-size: cover;
+    border-bottom: 2px solid #ff00d4;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #ff00d4;
+}
+
+
+#menu {
+    background-color: #f4c0ff;
+    border-bottom: 1px solid #c9fffe;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #ff37de;
+}
+
+
+#contenido {
+    display: flex;
+    margin-top: 20px;
+}
+
+#central {
+    width: 530px;
+    border: 1px dashed #CC6600;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+#secundario {
+    width: 200px;
+    border: 1px solid #CC6600;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.galeria {
+    display: flex;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+#pie {
+    height: 50px;
+    background-color: #F2F5FE;
+    border-top: 1px solid #C5C5C5;
+    border-bottom: 1px solid #C5C5C5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+#pie a {
+    color: #192666;
+    text-decoration: none;
+}
+
+#pie a:hover {
+    text-decoration: underline;
+}
+#carousel-inner > item > img,
+  carousel-inner > item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .search-box {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+		.results {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .result-item {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+		body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8d7e1; /* Fondo rosado claro */
+    color: #333;
+    padding-top: 20px;
+}
+#contenedor {
+    width: 770px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#cabecera {
+    height: 100px;
+    background-image: url('https://i.pinimg.com/736x/18/c0/a0/18c0a09fdf68127b132edacc000dc8ca.jpg');
+    background-size: cover;
+    border-bottom: 2px solid #ff00d4;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #ff00d4;
+}
+
+.navbar {
+    background-color: #f06292; /* Rosado fuerte */
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.search-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 2px solid #f06292;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.search-box:focus {
+    border-color: #f06292;
+    box-shadow: 0 0 5px rgba(240, 98, 146, 0.5);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #f06292;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para el buscador */
+ul#resultList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.result-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.result-item:hover {
+    background-color: #fce4ec;
+    border-color: #f06292;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+ 
+ 	

@@ -1,0 +1,39 @@
+/* Fondo rosado para toda la página */
+body {
+    background-color: #FFB6C1; /* Rosa claro */
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo rosado para el contenedor principal */
+.bg-pink {
+    background-color: #FF69B4; /* Rosa fuerte */
+}
+
+/* Estilo para las cajas */
+.box {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box h3 {
+    color: #FF69B4;
+    font-size: 24px;
+}
+
+.box p {
+    color: #333;
+}
+
+/* Estilo del carrusel (puedes personalizar más si lo deseas) */
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+/* Estilo para los botones de control del carrusel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #FF69B4;
+}
+
