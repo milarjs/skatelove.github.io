@@ -3,65 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>detalles de los patines</title>
-   <link rel="stylesheet" href="pagina principal.css">
+    <title>Detalles de los Patines</title>
+    <!-- Vinculando el archivo CSS -->
+    <link rel="stylesheet" href="pagina principal.CSS">
+    <link rel="stylesheet" href="tienda de patines.css">
 </head>
 <body align="center">
     <div id="contenedor">
+
+        <!-- Cabecera -->
         <header id="cabecera">
             <h1>DETALLES</h1>
         </header>
+
+        <!-- Menú de navegación -->
         <nav id="menu">
             <ul>
-             <li><A HREF="skate love p.p.html"> PAGINA PRINCIPAL </A></li>
-				   <li><A HREF="formulario patin.html">CONTACTOS</A></li>
-				   <li><A HREF="tienda.html">TIENDA DE PATINES</A></li>
+                <li><a href="skate love p.p.html">PÁGINA PRINCIPAL</a></li>
+                <li><a href="formulario patin.html">CONTACTOS</a></li>
+                <li><a href="tienda.html">TIENDA DE PATINES</a></li>
             </ul>
         </nav>
-		<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cajas Bonitas</title>
-    <link rel="stylesheet" href="tienda de patines.css">
-</head>
-</body>
-<body>
-	 <section class="search-bar">
-        <input type="text" id="searchInput" placeholder="Buscar productos...">
-        <button onclick="searchProducts()">Buscar</button>
-    </section>
-	<!-- Contenedor de las cajas -->
-<div align="center">
-    <div class="product-card">
-        <h3>Edea FLY</h3>
-		<h3>Edea FLY es la bota de patinaje más ligera del mercado y representa una técnica de avance y estética en el mundo del patinaje, se trata de un calzado ligero y resistente con gran flexibilidad 
-		                 interna que añade gracia y elegancia a cualquier movimiento.</h3>
+
+        <!-- Barra de búsqueda -->
+        <section class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar productos...">
+            <button onclick="searchProducts()">Buscar</button>
+        </section>
+
+        <!-- Contenedor de productos -->
+        <div class="product-container" align="center">
+            <div class="product-card">
+                <h3>Edea FLY</h3>
+                <p>Edea FLY es la bota de patinaje más ligera del mercado y representa una técnica de avance y estética en el mundo del patinaje. Se trata de un calzado ligero y resistente con gran flexibilidad interna que añade gracia y elegancia a cualquier movimiento.</p>
+            </div>
+
+            <div class="product-card">
+                <h3>EDEA RONDO</h3>
+                <p>Bota ligera con gran sujeción, especialmente diseñada para aquellos patinadores que ya comienzan con los saltos simples y el axel. Diseñada con una rigidez 35 para patines sobre ruedas. La suela perforada ayuda a la transpiración.</p>
+            </div>
+
+            <div class="product-card">
+                <h3>EDEA RITMO</h3>
+                <p>Ideales para aquellos patinadores que ya comienzan con los saltos dobles sobre ruedas. Diseño renovado, suela transpirable y materiales más ligeros. Con rigidez 50 proporciona una sujeción adecuada para tus ejercicios.</p>
+            </div>
+
+            <div class="product-card">
+                <h3>EDEA JAZZ</h3>
+                <p>Bota de última generación fabricada con malla de microfibra, perforada para conseguir una ventilación total en la bota, y suela con ventilación directa. Estructura anatómica en la sujeción del tobillo y revestimiento de espuma para obtener la máxima comodidad y sujeción del pie.</p>
+            </div>
+        </div>
+
     </div>
 
-    <div class="product-card">
-        <h3>EDEA RONDO</h3>
-		<h3>Bota ligera con gran sujeción, especialmente diseñada para aquellos patinadores que ya comienzan con los saltos simples y el axel. 
-		       Diseñada con una rigidez 35 para patines sobre ruedas. La suela perforada ayuda a la transpiración.</h3>
-   
-		
-    </div>
-	
-    <div class="product-card">
-        <h3>EDEA RITMO</h3>
-		<h3>Ideales para aquellos patinadores que ya comiencen con los saltos dobles sobre ruedas. Diseño renovado, suela transpirable y 
-		        materiales más ligeros. Con rigidez 50 proporciona una sujeción adecuada para tus ejercicio</h3>
-      
-    </div>
-
-    <div class="product-card">
-        <h3>EDEA JAZZ</h3>
-		<h3>Bota de última generación fabricada con malla de microfibra, perforada para conseguir una ventilación total en la bota, y 
-		           suela con ventilación directa. Estructura anatómica en la sujeción del tobillo y revestido de espuma, 
-				     para obtener la máxima comodidad y sujección del pie.</h3>
-   
-    </div>
-	</div>
     <script>
+        // Función de búsqueda de productos
         function searchProducts() {
             const input = document.getElementById('searchInput').value.toLowerCase();
             const productCards = document.querySelectorAll('.product-card');
@@ -76,5 +72,6 @@
             });
         }
     </script>
+
 </body>
 </html>
