@@ -1,57 +1,39 @@
-/* Variables de colores */
-:root {
-    --rosado-claro: #FFB6C1; /* Rosa claro */
-    --rosado-fuerte: #FF69B4; /* Rosa fuerte */
-    --blanco: #FFFFFF;
-    --gris-oscuro: #333;
-}
-
 /* Fondo rosado para toda la página */
 body {
-    background-color: var(--rosado-claro); /* Rosa claro */
+    background-color: #FFB6C1; /* Rosa claro */
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 /* Fondo rosado para el contenedor principal */
 .bg-pink {
-    background-color: var(--rosado-fuerte); /* Rosa fuerte */
+    background-color: #FF69B4; /* Rosa fuerte */
 }
 
 /* Estilo para las cajas */
 .box {
-    background-color: var(--blanco);
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease;
 }
 
 .box h3 {
-    color: var(--rosado-fuerte);
+    color: #FF69B4;
     font-size: 24px;
 }
 
 .box p {
-    color: var(--gris-oscuro);
+    color: #333;
 }
 
-/* Efecto de hover en las cajas */
-.box:hover {
-    transform: translateY(-5px); /* Eleva la caja al pasar el ratón */
-}
-
-/* Estilo del carrusel */
+/* Estilo del carrusel (puedes personalizar más si lo deseas) */
 .carousel-inner img {
     border-radius: 10px;
-    max-height: 500px; /* Limita la altura de las imágenes del carrusel */
-    object-fit: cover; /* Asegura que la imagen cubra todo el espacio del carrusel */
 }
 
 /* Estilo para los botones de control del carrusel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: var(--rosado-fuerte);
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #FF69B4;
 }
+
