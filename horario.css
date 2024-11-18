@@ -1,3 +1,4 @@
+/* Estilos generales para el body */
 body {
     margin: 0;
     padding: 0;
@@ -9,27 +10,47 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Contenedor de la cuadrícula */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(7, 100px);
-    grid-template-rows: repeat(4, 100px);
-    gap: 10px;
+    grid-template-columns: repeat(7, 100px); /* 7 columnas de 100px */
+    grid-template-rows: repeat(4, 100px);    /* 4 filas de 100px */
+    gap: 10px;                               /* Espacio entre los elementos */
+    justify-content: center;                 /* Centra la cuadrícula */
 }
 
+/* Estilo para cada elemento de la cuadrícula */
 .grid-item {
     width: 100px;
     height: 100px;
-    background-color: #fa10a5;
+    background-color: #fa10a5; /* Rosa brillante */
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 18px;
+    font-weight: bold;          /* Agregado para destacar el texto */
     border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el hover */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra suave para el texto */
 }
 
+/* Efecto hover */
 .grid-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px); /* Mueve el item hacia arriba */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra difusa y más suave */
+}
+
+/* Responsividad para pantallas medianas (tabletas, por ejemplo) */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas medianas */
+    }
+}
+
+/* Responsividad para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+    }
 }
